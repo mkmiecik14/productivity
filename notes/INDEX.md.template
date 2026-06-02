@@ -1,0 +1,31 @@
+# Notes — Master Index
+
+<!--
+  Setup: rename to INDEX.md. Replace the example rows with your own projects;
+  codenames must match the Projects table in CLAUDE.md exactly.
+-->
+
+Wiki / notebook for each project in [CLAUDE.md](../CLAUDE.md). Tasks live in [TASKS.md](../TASKS.md); use this for context, decisions, open questions, and longer-form thinking.
+
+## How this works
+- One folder per project, keyed to the codename in CLAUDE.md.
+- Each folder has an `index.md` (the project's main wiki page). Add sub-files (`meetings.md`, `decisions.md`, `<event>-2026.md`, etc.) inside when a project grows.
+- Cross-link other notes with `[[folder-name]]` (e.g. `[[example-project]]`). Linking to a not-yet-created note is fine — it just marks something worth writing later.
+- New project? Copy `_template/index.md` into `notes/<codename-kebab>/index.md` and add a row below.
+
+## Active
+
+| Project | Notes |
+|---|---|
+| Example Project | [example-project/](example-project/index.md) — a fully-worked example to see the format in use |
+| <Codename> | [<codename-kebab>/](<codename-kebab>/index.md) — <one-line description> |
+
+## On hold
+
+| Project | Notes |
+|---|---|
+| <Codename> | [<codename-kebab>/](<codename-kebab>/index.md) — <why paused> |
+
+## Template
+
+When creating a new project's `index.md`, copy from [`_template/index.md`](_template/index.md).

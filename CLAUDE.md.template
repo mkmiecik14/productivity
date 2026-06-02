@@ -1,0 +1,60 @@
+# Memory — <Your Name>
+
+<!--
+  This is the working-memory file Claude reads at the start of every session.
+  Keep it concise; the long-form knowledge lives in `memory/`.
+
+  Setup:
+    1. Rename this file to `CLAUDE.md` (drop the `.template` extension)
+    2. Replace every `<...>` placeholder with your own values
+    3. Delete or replace any example rows you don't need
+    4. Don't paste secrets here — this file is meant to be readable
+-->
+
+## Me
+<Your name> (`<your-email@example.com>`). <Your role / team / focus area in one or two sentences>.
+
+## Working Directory
+- **Always connect to:** `<absolute path to this folder, e.g. ~/Documents/productivity>`
+- If not already mounted at session start, prompt me to connect it before doing any task work
+
+## Task System
+<!-- Link out to wherever tasks really live (Asana / Jira / Todoist / a sheet). TASKS.md is your local mirror. -->
+- Source of truth: <URL or "TASKS.md only">
+- TASKS.md sections: **Inbox → Next Actions → Deep Work In Progress (max 3) → In Review/Waiting → Done → Someday/Maybe**
+
+## Notes / Wiki
+- Per-project notes live under [`notes/`](notes/INDEX.md), one folder per project (codenames match the table below).
+- Use `notes/<codename>/index.md` for the main wiki page; add sub-files (`meetings.md`, `decisions.md`, etc.) as projects grow.
+- When learning something durable about a project, write it to its notes file rather than as ephemeral chat context.
+
+## People
+<!-- Anyone you collaborate with often enough that Claude should recognize them by first name. -->
+
+| Who | Full Name / Role |
+|-----|-----------------|
+| **<First name>** | <Full name + role + what they own> |
+| **<First name>** | <Full name + role + what they own> |
+
+## Projects
+<!-- Codenames are how you'll refer to projects in chat. Keep them short. -->
+
+| Codename | What | Notes |
+|----------|------|-------|
+| **<Codename>** | <One-line description> | [notes](notes/<codename-kebab>/index.md) |
+| **<Codename>** | <One-line description> | [notes](notes/<codename-kebab>/index.md) |
+
+## Key Terms / Acronyms
+<!-- Field-specific jargon, internal tools, recurring meetings — anything an outsider wouldn't decode. -->
+
+| Term | Meaning |
+|------|---------|
+| <ACRONYM> | <Expansion + context> |
+| <Nickname> | <What it actually refers to> |
+
+## Preferences
+<!-- How you like Claude to work with you. Examples below — edit freely. -->
+- Task format: <e.g. Trello-style Inbox / Next / Doing / Review / Done / Someday>
+- Methodology: <e.g. GTD, weekly review on Fridays>
+- Tools you use: <languages, frameworks, services Claude should default to>
+- Style: <e.g. terse, minimal formatting, prefer code over prose>

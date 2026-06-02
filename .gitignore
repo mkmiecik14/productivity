@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Personal data — filled-in versions of the template skeletons.
+# Remove these lines in your personal fork if you want to commit your data.
+CLAUDE.md
+TASKS.md
+notes/INDEX.md
+
+# Personal memory files (folder structure is kept via .gitkeep)
+memory/context/*.md
+memory/people/*.md
+memory/projects/*.md
+memory/glossary.md
+
+# Personal weekly updates (keep the instructional README)
+weekly-updates/*.md
+!weekly-updates/README.md

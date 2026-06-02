@@ -1,0 +1,50 @@
+# Tasks
+
+<!--
+  Trello-style task mirror. Tasks flow top-to-bottom:
+    Inbox       → captured but not yet triaged
+    Next Actions → triaged, ready to pick up
+    Deep Work In Progress → currently being done (cap at 3 to protect focus)
+    In Review / Waiting → handed off, awaiting external response
+    Done        → recently completed (prune to a recent window)
+    Someday/Maybe → not now, but worth keeping a pointer to
+
+  Each task is a checkbox + bolded title + optional metadata lines.
+  Suggested metadata fields:
+    **Project:** <Codename from CLAUDE.md>
+    **Due:** YYYY-MM-DD
+    **Created:** YYYY-MM-DD
+    **Waiting on:** <person or thing>
+    **Link:** <url>
+
+  Sub-checkboxes are fine for breaking a task into checkable subtasks.
+
+  Setup: rename to `TASKS.md` and delete the example tasks below.
+-->
+
+## Inbox
+- [ ] **Example: triage this task before moving it down**
+  - **Created:** YYYY-MM-DD
+
+## Next Actions
+- [ ] **Example: a small, clearly-defined next step**
+  - **Project:** <Codename>
+  - **Due:** YYYY-MM-DD
+
+## Deep Work In Progress
+<!-- Max 3 items. If you have a 4th, demote one back to Next Actions. -->
+- [ ] **Example: a focus-block-worthy piece of work**
+  - **Project:** <Codename>
+
+## In Review / Waiting
+- [ ] **Example: handed off, waiting on response**
+  - **Waiting on:** <Person>
+  - **Since:** YYYY-MM-DD
+
+## Done
+<!-- Prune periodically; keep the last ~2 weeks. -->
+- [x] **Example: a finished task**
+  - **Completed:** YYYY-MM-DD
+
+## Someday / Maybe
+- [ ] **Example: an idea worth keeping but not committed to**
